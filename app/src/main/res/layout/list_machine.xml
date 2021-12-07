@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="4dp"
+    android:padding="4dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_machine_layout"
+        >
+
+
+        <TextView
+            android:id="@+id/list_machine_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Title : "
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_machine_tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toRightOf="@id/list_machine_tv1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/list_machine_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Created By : "
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/list_machine_tvTitle" />
+
+        <TextView
+            android:id="@+id/list_machine_tvCreated"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toRightOf="@id/list_machine_tv2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/list_machine_tvTitle" />
+
+        <TextView
+            android:id="@+id/list_machine_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Location : "
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/list_machine_tvCreated" />
+
+        <TextView
+            android:id="@+id/list_machine_tvLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="4dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toRightOf="@id/list_machine_tv3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/list_machine_tvCreated" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list_machine_cardview"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:backgroundTint="@color/design_orange"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>

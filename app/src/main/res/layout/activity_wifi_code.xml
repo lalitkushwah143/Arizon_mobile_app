@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WifiCodeActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/activity_wificode_tvTitle"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/activity_wificode_imageview1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingLeft="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/activity_wificode_tvTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_wificode_tvTitle"
+        app:srcCompat="@drawable/ic_baseline_west_24"
+        app:tint="@android:color/black" />
+
+    <TextView
+        android:id="@+id/activity_wificode_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="SSID: "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@id/activity_wificode_tvSSID"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_wificode_tvSSID" />
+
+    <TextView
+        android:id="@+id/activity_wificode_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Encryption: "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@id/activity_wificode_spinner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/activity_wificode_tv3"
+        app:layout_constraintTop_toTopOf="@id/activity_wificode_spinner" />
+
+    <TextView
+        android:id="@+id/activity_wificode_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Password: "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@id/activity_wificode_etPass"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_wificode_etPass" />
+
+    <EditText
+        android:id="@+id/activity_wificode_tvSSID"
+        android:hint="SSID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintLeft_toRightOf="@id/activity_wificode_tv2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_wificode_tvTitle" />
+
+    <Spinner
+        android:id="@+id/activity_wificode_spinner"
+        android:layout_width="0dp"
+        android:layout_margin="20dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/activity_wificode_tv2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_wificode_tvSSID" />
+
+    <EditText
+        android:id="@+id/activity_wificode_etPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter password"
+        app:layout_constraintLeft_toRightOf="@id/activity_wificode_tv2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_wificode_spinner" />
+
+    <Button
+        android:id="@+id/activity_wificode_bShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_wificode_etPass"
+        android:layout_margin="20dp"
+        android:text="Generate"
+        android:backgroundTint="@color/design_orange"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_wificode_bShow"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/acitivity_wificode_imageview"
+        app:layout_constraintBaseline_toBaselineOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

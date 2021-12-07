@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/drawable/ic_baseline_compare_arrows_24.xml" value="0.2203125" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/drawable/ic_baseline_content_paste_24.xml" value="0.2203125" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/account2.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_account.xml" value="0.22" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_add_job.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_add_machine.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_add_manual.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_add_module.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_add_step.xml" value="0.18885869565217392" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_call_log.xml" value="0.22" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_chart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_desc.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_fat_sat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_full_profile_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_home.xml" value="0.20108695652173914" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_job.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_load_recipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_lyo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_main.xml" value="0.20108695652173914" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_manual.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_manuals.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/activity_profile.xml" value="0.19701086956521738" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/chart_demo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_load_FatSat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_load_fatsat.xml" value="0.1" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_load_recipe.xml" value="0.33" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_load_recipe2.xml" value="0.22" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_log.xml" value="0.25" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/list_lyo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/login_cdu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/AppDesign2-master/app/src/main/res/layout/progress_popup.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable-mdpi/page_indicator_selector.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_center_focus_weak_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_tv_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_baseline_videocam_off_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_circular_border_imageview.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/ic_layout.xml" value="0.2203125" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/drawable/square_background.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/account2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_account.xml" value="0.25" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_account2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_add.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_add_component.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_add_job.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_add_machine.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_add_manual.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_call.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_chart.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_contents.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_home_popup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_issue.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_job.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_lyo.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_machines.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_report.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/custom_dialog_about.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/list_recipe.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lalit/Downloads/AppDesign2-master (1)/AppDesign2-master/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    tools:context=".QrcodeActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/activity_qrcode_tvTitle"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginStart="50dp"
+        android:singleLine="true"
+        android:layout_marginEnd="50dp"
+        android:textSize="30sp"
+        android:padding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/activity_qrcode_imageview1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingLeft="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/activity_qrcode_tvTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_qrcode_tvTitle"
+        app:srcCompat="@drawable/ic_baseline_west_24"
+        app:tint="@android:color/black" />
+
+    <TextView
+        android:id="@+id/activity_qrcode_tvRole"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:text="Select Role: "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/activity_qrcode_spinner"
+        app:layout_constraintTop_toBottomOf="@id/activity_qrcode_tvTitle" />
+
+    <Spinner
+        android:id="@+id/activity_qrcode_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/activity_qrcode_tvRole"
+        app:layout_constraintLeft_toRightOf="@id/activity_qrcode_tvRole"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_qrcode_tvRole" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_qrcode_tvTitle"
+        app:layout_constraintRight_toLeftOf="@id/activity_qrcode_spinnerMachine"
+        android:id="@+id/activity_qrcode_tvMachine"
+        android:text="Select Machine: "
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:textColor="@color/black"/>
+
+
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activity_qrcode_tvMachine"
+        app:layout_constraintLeft_toRightOf="@id/activity_qrcode_tvMachine"
+        app:layout_constraintBottom_toBottomOf="@id/activity_qrcode_tvMachine"
+        android:layout_margin="10dp"
+        android:id="@+id/activity_qrcode_spinnerMachine"/>
+
+    <Button
+        android:id="@+id/activity_qrcode_bShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Generate"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:backgroundTint="@color/design_orange"
+        app:layout_constraintTop_toBottomOf="@+id/activity_qrcode_tvMachine" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/acitivity_qrcode_imageview"
+        app:layout_constraintTop_toBottomOf="@id/activity_qrcode_bShow"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activity_qrcode_fabshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:backgroundTint="@color/design_orange"
+        app:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_share" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+ <!--   <color name="text_blue">#2196F3</color>  -->
+    <color name="text_blue">#141256</color>
+    <color name="text_blue2">#105BCA</color>
+    <color name="color_back">#FAFAFA</color>
+    <color name="dark_pink">#F85F6A</color>
+    <color name="light_pink">#FFB3B1</color>
+    <color name="image_back">#E3F2FD</color>
+    <color name="remoteBackground">#605858</color>
+    <color name="localBackground">#D3C7C7</color>
+    <color name="chart_real">#976666</color>
+    <color name="color_card">#ffb876</color>
+    <color name="lyo_back">#CDD19C</color>
+    <color name="lyo_front">#FDFF00</color>
+    <color name="lyo_red">#FF422F</color>
+
+    <color name="theme_back">#141256</color>
+    <color name="theme_front">#17155b</color>
+    <color name="gradient">#4B757070</color>
+    <color name="gradient2">#2B757070</color>
+    <color name="gradient3">#D3CECE</color>
+
+    <color name="color_back_gradient">#DDDDEC</color>
+
+
+    <color name="color_accept">#1ce663</color>
+    <color name="color_reject">#e61c3a</color>
+    <color name="color_issue">#e6c81c</color>
+    <color name="color_normal">#1c9fe6</color>
+
+    <color name="design_orange">#FF8700</color>
+
+    <color name="chart_temp">#FF8700</color>
+    <color name="chart_pressure">#FFE167</color>
+    <color name="chart_realtime">#00BD04</color>
+    <color name="login_yellow">#FFA61F</color>
+
+</resources>
